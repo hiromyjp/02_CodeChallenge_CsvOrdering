@@ -16,7 +16,7 @@ namespace CSV
     }
 
     //Represents a Column of the data as a table
-    class Column
+    public class Column
     {
         public Column(string name)
         {
@@ -47,7 +47,7 @@ namespace CSV
 
 
     //Represents the received data as a table
-    class Table
+    public class Table
     {
         public Table()
         {
